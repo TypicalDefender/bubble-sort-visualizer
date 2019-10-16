@@ -1,0 +1,39 @@
+button{
+    background: #067aff;
+    color: white;
+    font-size: 28px;
+    font-style: bold;
+    border-radius: 5px;
+    padding: 10px;
+    border:none;
+    font-family:   sans-serif;
+    
+}
+
+
+#display{
+    width: 30%;
+    margin: auto;
+    background: #18c721;
+    font-size: 28px;
+    font-style: bold;
+    border-radius: 8px;
+    padding: 2px;
+    text-align: center;
+    border: none;
+}
+
+.btn{
+    margin-left:330px;
+    margin-top:30px;
+   
+}
+
+#canvasContainer{
+    margin-left: 400px;
+}
+
+.row{
+    margin-top:15px;
+    text-align: center;
+}

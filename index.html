@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Visualizer</title>
+</head>
+<body>
+    <div id="canvasContainer">
+        <canvas id="myCanvas" width = '1000' height='700' />
+        </div>
+        <div class="btn">
+        <button class="btn" id='ref' onclick= 'reshuffle()'>Shuffle</button>
+        <button class="btn" id='start' onclick= 'bubble()'>Bubble Sort</button>
+    </div>
+        <div class='row'>
+            <div class='col' id = 'display'><label id='lblPass'>0 </label><label> Passes </label><label> | </label><label id='lblDisplay'>0 </label><label> Swaps</label></div>
+        </div> 
+    <script src="quickSortVisualization.js"></script>
+</body>
+</html>
